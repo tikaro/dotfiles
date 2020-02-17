@@ -1,2 +1,3 @@
 # dotfiles
-dotfiles for Visual Studio online
+
+These are my dotfiles for personalizing my [Visual Studio Online](https://online.visualstudio.com/) instances.
