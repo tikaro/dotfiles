@@ -23,6 +23,8 @@ zshrc() {
     cat .p10k.zsh > $HOME/.p10k.zsh
 }
 
+
+
 # change time zone
 # sudo ln -fs /usr/share/zoneinfo/America/Chicago /etc/localtime
 # sudo dpkg-reconfigure --frontend noninteractive tzdata
@@ -35,3 +37,6 @@ zshrc
 # echo "_ls_colors=':ow=01;33'" >> ~/.zshrc
 # echo 'zstyle ":completion:*:default" list-colors "${(s.:.)_ls_colors}"' >> ~/.zshrc
 # echo 'LS_COLORS+=$_ls_colors' >> ~/.zshrc
+
+# banner script
+cat tikaro.sh > ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/tikaro.sh
