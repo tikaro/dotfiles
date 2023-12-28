@@ -79,7 +79,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git ssh-agent zsh-syntax-highlighting zsh-autosuggestions)
 
 zstyle :omz:plugins:ssh-agent quiet yes
-zstyle :omz:plugins:ssh-agent identities id_ed25519_chromebook
+
+# This doesn't work in codespaces, so I'm commenting it out
+# zstyle :omz:plugins:ssh-agent identities id_ed25519_chromebook
 
 source $ZSH/oh-my-zsh.sh
 
